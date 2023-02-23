@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: initial;
+  text-shadow: 100px 10px 5px;
+}
+
+#slider {
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  margin-top: 50px;
+  border: 2px solid red;
+  position: relative;
+}
+#slider img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#slider .next,
+#slider .prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: red;
+  opacity: 1;
+  transition: 0.5s ease-in-out 0.4s;
+  padding: 100px 10px;
+  border-radius: 20px;
+}
+#slider .next:hover,
+#slider .prev:hover {
+  opacity: 0;
+  color: black;
+}
+#slider .next {
+  right: 15px;
+}
+#slider .prev {
+  left: 15px;
+}/*# sourceMappingURL=style.css.map */
